@@ -15,11 +15,8 @@ You will need :
 
 And then we need to create the bot:
 
-1. Contact the ```@BotFather```.
-   ![image](./screenshots/Screenshot_1.png)
-<br />
-
-1. Give your bot a name (we will refer to it as ```@your_bot_name```, in my case it's ```@cronogramed_bot```).
+1. Contact the ```@BotFather```.</br>![image](./screenshots/Screenshot_1.png)
+2. Give your bot a name (we will refer to it as ```@your_bot_name```, in my case it's ```@cronogramed_bot```).
     ![image](./screenshots/Screenshot_2.png)
 </br>
 And here you have the ```API token```.  
