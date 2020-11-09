@@ -15,13 +15,13 @@ You will need :
 
 And then we need to create the bot:
 
-1. Contact the ```@BotFather```.</br>
+1. Contact the ```@BotFather```.<br>
    ![image](./screenshots/Screenshot_1.png)
-2. Give your bot a name (we will refer to it as ```@your_bot_name```, in my case it's ```@cronogramed_bot```).</br>
+2. Give your bot a name (we will refer to it as ```@your_bot_name```, in my case it's ```@cronogramed_bot```).<br>
     ![image](./screenshots/Screenshot_2.png)
-</br>
+<br>
 And here you have the ```API token```.  
-<br />
+<br>
 
 3. You need to install Python dependencies.
     In a terminal write :
@@ -29,30 +29,30 @@ And here you have the ```API token```.
     ```bash
     pip3 install telegram-send
     ```
-<br />
+<br>
 
 4. Configure your sender :
 
     ```bash
     telegram-send --configure
     ```
-<br />
+<br>
 
 5. You are prompted to enter your ```API token``` you obtained in ```step 2```.
-<br />
+<br>
 
 6. You obtain a ```[code]``` you will need in few steps.
-<br />
+<br>
 
-7. Contact ```@your_bot_name```.</br>
+7. Contact ```@your_bot_name```.<br>
     ![image](./screenshots/Screenshot_3.png)
-</br>
+<br>
 And click the **start** button.
-<br />
+<br>
 
 8. Enter the ```code``` you obtained in **step 6**.</br>
     ![image](./screenshots/Screenshot_4.png)
-<br />
+<br>
 
 9. ```@your_bot_name``` is ready !
 
