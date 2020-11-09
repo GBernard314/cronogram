@@ -3,11 +3,12 @@ import sys
 import os
 import time
 
+prog = sys.argv[len(sys.argv)-2]
 cron_job_name = sys.argv[len(sys.argv)-1]
 
 #getting the execution time of the 1st argument
 start = time.time()
-os.system('python3 ' + cron_job_name)
+os.system(prog + ' ' + cron_job_name)
 end = time.time()
 duration = float(time.time() - start)
 

@@ -1,8 +1,15 @@
 # Cronogram
+Your trustworthy ```cron task``` notifier.
 
 ## Goal
 
-This is a telegram notifier when a cron job worked properly.
+Because you never know if your ```cron task``` has been successful, this **software** is there to notify at the exact moment the task is completed, wherever you are thanks to the use of [Telegram](https://telegram.org/) and this [package](https://pypi.org/project/telegram-send/)
+
+## Dependencies
+You will need :
+- ```python3```
+- ```telegram-send``` (don't worry i'll tell you how to install it in the ```setup```)
+
 
 ## Setup
 
@@ -18,7 +25,7 @@ And then we need to create the bot:
 <br />
 
 3. You need to install Python dependencies.
-    In a Terminal write :
+    In a terminal write :
 
     ```bash
     pip3 install telegram-send
@@ -40,11 +47,43 @@ And then we need to create the bot:
 
 7. Contact ```@your_bot_name```.
     ![image](./screenshots/Screenshot_3.png)
-    And click the ```start``` button.
+    And click the **start** button.
 <br />
 
-8. Enter the ```code``` you obtained in ```step 6```.
+8. Enter the ```code``` you obtained in **step 6**.
     ![image](./screenshots/Screenshot_3.png)
 <br />
 
 9. ```@your_bot_name``` is ready !
+
+
+## Use
+The use is really simple, you just need to add ```program``` and ```yourtask``` you want to monitor.
+*example :* 
+
+```bash
+#!/bin/bash
+
+python3 cronogram.py python3 test.py
+```
+
+*or*
+
+```bash
+#!/bin/bash
+
+python3 cronogram.py sh test.sh
+```
+
+## Help
+I provide ```2``` files to test it out
+- ```test.py```
+- ```test.sh```
+  
+They both make the program wait and that allows you to check the correct behavior.
+
+To test if everything is working out of the box :
+```bash
+bash cronogram.sh
+```
+And if everything is alright you will receive a **Telegram** message after ```5``` seconds.
