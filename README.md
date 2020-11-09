@@ -1,4 +1,9 @@
 # Cronogram
+
+![GitHub contributors](https://img.shields.io/github/contributors/Azarogue/cronogram?color=green&style=flat-square)
+![GitHub top language](https://img.shields.io/github/languages/top/GBernard314/cronogram?style=flat-square)
+[![time tracker](https://wakatime.com/badge/github/GBernard314/cronogram.svg)](https://wakatime.com/badge/github/GBernard314/cronogram)
+![GitHub repo size](https://img.shields.io/github/repo-size/Azarogue/cronogram?label=project%20size&style=flat-square&color=lightgrey)
 Your trustworthy ```cron task``` notifier.
 
 ## Goal
