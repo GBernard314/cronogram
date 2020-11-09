@@ -4,7 +4,6 @@
 ![GitHub top language](https://img.shields.io/github/languages/top/GBernard314/cronogram?style=flat)
 [![time tracker](https://wakatime.com/badge/github/GBernard314/cronogram.svg)](https://wakatime.com/badge/github/GBernard314/cronogram)
 ![GitHub repo size](https://img.shields.io/github/repo-size/GBernard314/cronogram?label=project%20size&style=flat&color=lightgrey)
-
 <br>Your trustworthy ```cron task``` notifier.
 
 ## Goal
