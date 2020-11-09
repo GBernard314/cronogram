@@ -42,7 +42,7 @@ And then we need to create the bot:
 5. You are prompted to enter your ```API token``` you obtained in ```step 2```.
 <br />
 
-6. You obtain a ```code``` you will need in few steps.
+6. You obtain a ```[code]``` you will need in few steps.
 <br />
 
 7. Contact ```@your_bot_name```.
