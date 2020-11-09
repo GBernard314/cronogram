@@ -51,7 +51,7 @@ And then we need to create the bot:
 <br />
 
 8. Enter the ```code``` you obtained in **step 6**.
-    ![image](./screenshots/Screenshot_3.png)
+    ![image](./screenshots/Screenshot_4.png)
 <br />
 
 9. ```@your_bot_name``` is ready !
